@@ -24,7 +24,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="absolute justify-center hidden text-center bottom-3 sm:block sm:bottom-3">
-          <p className="text-sm font-montserrat text-primary-light-cyan">Challenge by <a className="text-primary-neon-green" href="https://www.frontendmentor.io" rel='noopener noreferrer' target="_blank">Frontend Mentor</a>. Coded by <a href="#" className="text-primary-neon-green">DonnxDev</a>.</p>
+          <p className="text-sm font-montserrat text-primary-light-cyan">Challenge by <span className='text-primary-neon-green'><a className="" href="https://www.frontendmentor.io" rel='noopener noreferrer' target="_blank">Frontend Mentor</a></span>. Coded by <span className="text-primary-neon-green"><a href="#" >DonnxDev</a></span>.</p>
         </footer>
       </body>
     </html>
