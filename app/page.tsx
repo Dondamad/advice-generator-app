@@ -47,7 +47,7 @@ export default function Home() {
         height={20}
       />
       <div className='h-4'>
-        <button onClick={fetchData} className='absolute bottom-[-2rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-primary-neon-green hover:drop-shadow-[0_0_40px_#53FFAA]'>
+        <button onClick={fetchData} className='absolute bottom-[-2rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-primary-neon-green hover:drop-shadow-[0_0_40px_#53FFAA]' aria-label="Get Advice">
           <Image
             className=""
             src="/images/icon-dice.svg"
