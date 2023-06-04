@@ -10,11 +10,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,7 +29,9 @@ Desktop
 ![image](https://github.com/Dondamad/advice-generator-app/assets/62839557/dd3b56c3-8e9f-4f55-b3fa-1da6b9672c2f)
 
 Mobile
-![image](https://github.com/Dondamad/advice-generator-app/assets/62839557/c57e62c6-aeb2-4419-9b96-ed0e329c8596)
+<p align="center">
+  <img src="https://github.com/Dondamad/advice-generator-app/assets/62839557/6669fefd-7a40-4bb9-b99e-e9f634bd0e78">
+</p>
 
 ### Links
 
