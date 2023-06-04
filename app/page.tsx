@@ -36,7 +36,7 @@ export default function Home() {
       {isLoading ? (
         <LoadingSpinner />
       ) : (<>
-        <p className="py-2 before:content-['“'] after:content-['”'] sm:leading-[38px] text-2xl sm:text-[28px] leading-8 text-center font-manrope text-primary-light-cyan">{data?.advice}</p>
+        <p className=" before:content-['“'] after:content-['”'] sm:leading-[38px] text-2xl sm:text-[28px] leading-8 text-center font-manrope text-primary-light-cyan">{data?.advice}</p>
       </>)}
 
       <Image
