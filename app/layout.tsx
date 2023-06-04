@@ -1,7 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Manrope } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({
+  weight: "800",
+  subsets: ['latin'],
+  variable: "--font-manrope",
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${manrope.variable} flex flex-col items-center justify-center h-screen sm:flex-col bg-neutral-dark-blue`}>
+        <main>
+          {children}
+        </main>
+        <footer className="absolute justify-center hidden text-center bottom-3 sm:block sm:bottom-3">
+          <p className="text-sm font-montserrat text-primary-light-cyan">Challenge by <a className="text-primary-neon-green" href="https://www.frontendmentor.io" rel='noopener noreferrer' target="_blank">Frontend Mentor</a>. Coded by <a href="#" className="text-primary-neon-green">DonnxDev</a>.</p>
+        </footer>
+      </body>
     </html>
   )
 }
