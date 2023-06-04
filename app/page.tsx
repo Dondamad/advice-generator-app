@@ -30,13 +30,13 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-[343px] sm:max-w-[540px] relative space-y-5 p-6 sm:px-11 text-center justify-center flex flex-col rounded-lg bg-neutral-dark-grayish-blue">
+    <div className="max-w-[343px] sm:max-w-[540px] relative space-y-6 p-6 sm:px-11 text-center justify-center flex flex-col rounded-lg bg-neutral-dark-grayish-blue">
       <h1 className='mt-4 text-[11px] sm:text-[13px] tracking-[3px] font-manrope text-primary-neon-green'>ADVICE #{data?.id}</h1>
 
       {isLoading ? (
         <LoadingSpinner />
       ) : (<>
-        <p className="pb-1 before:content-['“'] after:content-['”'] sm:leading-[38px] text-2xl sm:text-[28px] leading-8 text-center font-manrope text-primary-light-cyan">{data?.advice}</p>
+        <p className="py-4 before:content-['“'] after:content-['”'] sm:leading-[38px] text-2xl sm:text-[28px] leading-8 text-center font-manrope text-primary-light-cyan">{data?.advice}</p>
       </>)}
 
       <Image
